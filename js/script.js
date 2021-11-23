@@ -25,9 +25,9 @@ const displayImage = function (randomImage) {
     const author = randomImage.author;
     // console.log(author);
     const imageAddress = randomImage.download_url;
-    authorSpan.innerText = author;
     img.src = imageAddress;
     img.onload = function() {
+        authorSpan.innerText = author;
         imgDiv.classList.remove('hide');
     };    
 };

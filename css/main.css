@@ -24,10 +24,10 @@ body {
 
 h1 {
   width: 100%;
+  font-family: "Rubik", sans-serif;
   text-align: center;
   font-size: 2.5rem;
-  letter-spacing: 0.75px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 img {
@@ -42,8 +42,7 @@ button {
   background-color: #4361ee;
   color: #fff;
   border: none;
-  font-size: 16px;
-  font-family: "Montserrat";
+  font-size: 1.1rem;
   font-weight: bold;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.2);
 }
@@ -55,7 +54,6 @@ button:hover {
   color: #fff;
   border: none;
   font-size: 16px;
-  font-family: "Montserrat";
   font-weight: bold;
   cursor: pointer;
 }

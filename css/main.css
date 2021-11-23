@@ -7,9 +7,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
-  background-color: #daeffb;
+  background-color: #fff;
+  color: #444;
 }
 
 .main {
@@ -24,7 +25,9 @@ body {
 h1 {
   width: 100%;
   text-align: center;
-  font-family: "Montserrat";
+  font-size: 2.5rem;
+  letter-spacing: 0.75px;
+  font-weight: 600;
 }
 
 img {
@@ -34,19 +37,19 @@ img {
 
 button {
   margin: 1.5em auto;
-  padding: 20px;
+  padding: 1.5rem 3.0rem;
   border-radius: 40px;
-  background-color: royalblue;
+  background-color: #4361ee;
   color: #fff;
   border: none;
   font-size: 16px;
   font-family: "Montserrat";
   font-weight: bold;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
   margin: 1.5em auto;
-  padding: 20px;
   border-radius: 40px;
   background-color: rgb(44, 77, 179);
   color: #fff;
